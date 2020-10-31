@@ -16,11 +16,11 @@ let moverDireita2 = false;
 const todosQuadrados = [];
 
 //chamar o Square para criar um objeto do tipo Square
-const quadrado2 = new Square(5, 5, 100, 100, '#900', 5, '../images/caramuru.png');
+const quadrado2 = new Square(100, 200, 100, 100, '#900', 5, 'images/caramuru.png');
 // adicionar o objeto ao array
 todosQuadrados.push(quadrado2);
 
-const quadrado1 = new Square(800, 250, 100, 100, '#f60', 5, '../images/polvo.png');
+const quadrado1 = new Square(800, 200, 100, 100, '#f60', 5, 'images/polvo.png');
 todosQuadrados.push(quadrado1);
 
 // console.log(todosQuadrados);
