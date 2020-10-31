@@ -20,10 +20,8 @@ const quadrado2 = new Square(100, 200, 100, 100, '#900', 5, 'images/caramuru.png
 // adicionar o objeto ao array
 todosQuadrados.push(quadrado2);
 
-const quadrado1 = new Square(800, 200, 100, 100, '#f60', 5, 'images/polvo.png');
+const quadrado1 = new Square(800, 200, 100, 100, '#0000FF', 5, 'images/polvo.png');
 todosQuadrados.push(quadrado1);
-
-// console.log(todosQuadrados);
 
 // escutador de eventos para as teclas enquanto pressionadas com função 
 window.addEventListener('keydown', function (e) {
